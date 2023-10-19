@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto - NinaStudio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"></a>
+                <img class="miLogo" src="./img/logo/logox.png" alt="Foto del logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sucursal.html">Sucursal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="tituloContacto">
+            <h2>Contacto</h2>
+        </div>
+        <div class="contact_form float-md-left">
+            <h3>Escribinos y en breve nos pondremos en contacto contigo</h3>
+
+
+            <form class="form_contact">
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+                <button type="reset">Restaurar</button>
+            </form>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div class="footer-redes">
+
+            <a href="contacto.html" target="_blank">
+                <img class="footer-img" src="./img/redes/instagram.png" alt="Logo de Instagram">
+            </a>
+
+            <a href='contacto.html' target='_blank'>
+                <img class="footer-img" src="./img/redes/correo-electronico.png" alt="Logo de Correo Electronico">
+            </a>
+            <a href="contacto.html" target="_blank">
+                <img class="footer-img" src="./img/redes/facebook.png" alt="Logo de Facebook">
+            </a>
+
+        </div>
+
+        <div class="footer-texto">
+            <a href='/'>
+                <h4>NINASTUDIO</h4>
+            </a>
+            <p class="footer-texto">© Copyright 2023 | NinaStudio | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp">
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
