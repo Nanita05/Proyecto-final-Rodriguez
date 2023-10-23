@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 2rem;
+        margin-bottom: 1px;
+    }
+}
+
+@media (max-width: 768px) {
+    .texto-grande {
+        width: auto;
+
+        h6 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .miLogo {
+        width: 80px;
+        margin-left: 20px;
+    }
+
+    .navbar-nav {
+        width: 100px;
+        height: auto;
+    }
+}
