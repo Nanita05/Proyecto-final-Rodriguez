@@ -4,7 +4,7 @@
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    color: #56A689;
+    color: $color-verde;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -15,12 +15,12 @@
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: #fafafa;
+    background-color: $color-blanco;
     padding-left: 30px;
 }
 
 input {
-    background-color: #fafafa;
+    background-color: $color-blanco;
     width: 408px;
     height: 40px;
     border-radius: 5px;

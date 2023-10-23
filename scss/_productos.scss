@@ -15,12 +15,12 @@
 }
 
 .colorBtn {
-    background-color: #56A689;
-    color: #fafafa;
+    background-color: $color-verde;
+    color: $color-blanco;
     font-size: 15px;
 
     &:hover {
         background-color: #F294AD;
-        color: #fafafa;
+        color: $color-blanco;
     }
 }

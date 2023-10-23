@@ -5,8 +5,8 @@ footer {
 }
 
 .footer-redes {
-    background-color: white;
-    border-bottom: 1px solid white;
+    background-color: $color-blanco;
+    border-bottom: 1px solid $color-blanco;
     margin-bottom: 20px;
     padding: 0px;
     display: flex;
@@ -23,13 +23,13 @@ footer {
     border-radius: 5px;
 
     &:hover {
-        background-color: #56A689;
+        background-color: $color-verde;
         border-radius: 5px;
     }
 }
 
 .footer-texto {
-    color: #ececec;
+    color: $color-blanco;
     text-align: center;
 
     h4 {
@@ -39,7 +39,7 @@ footer {
         text-decoration: none;
 
         &:hover {
-            color: #fafafa;
+            color: $color-blanco;
         }
     }
 

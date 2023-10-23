@@ -1,3 +1,9 @@
+@mixin anclas {
+    text-decoration: none;
+    color: white;
+}
+
+
 .miLogo {
     width: 100px;
     margin-left: 15px;
@@ -16,7 +22,7 @@ body {
 }
 
 .navbar-expand-lg {
-    background-color: #307B8C;
+    background-color: $color-celeste;
 }
 
 .navbar-nav a {
@@ -26,7 +32,7 @@ body {
     font-weight: bold;
 
     &:hover {
-        background-color: #56A689;
+        background-color: $color-verde;
         color: white;
         border-radius: 10px;
     }
@@ -56,7 +62,7 @@ body {
 
     a {
         text-decoration: none;
-        color: #56A689;
+        color: $color-verde;
     }
 }
 
@@ -72,8 +78,7 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: white;
+    @include anclas;
     letter-spacing: 1px;
     font-size: 1.2rem;
 }
@@ -93,6 +98,6 @@ h5 {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    color: #56A689;
+    color: $color-verde;
     text-shadow: 2px 2px 2px black;
 }

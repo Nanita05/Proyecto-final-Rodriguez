@@ -1,3 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Dosis:wght@200 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
+body {
+  font-family: "Lato", sans-serif;
+  background-image: radial-gradient(rgb(37, 139, 159), black);
+}
+
+.miLogo {
+  width: 100px;
+  margin-left: 15px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  font-family: "Dosis", sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.navbar-expand-lg {
+  background-color: #307B8C;
+}
+
+.navbar-nav a {
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar-nav a:hover {
+  background-color: #56A689;
+  color: white;
+  border-radius: 10px;
+}
+
+.navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+.navbar-toggler:hover {
+  box-shadow: none;
+}
+
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner h5 {
+  text-shadow: 2px 2px 2px black;
+  font-size: 2vw;
+  font-size: 1.4rem;
+}
+.carousel-inner a {
+  text-decoration: none;
+  color: #56A689;
+}
+
+.carousel {
+  margin-top: 4rem;
+  width: 1000px;
+}
+
+.carousel-item,
+.carousel-inner {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+p {
+  margin-bottom: 0px;
+  padding-bottom: 1rem;
+}
+
+h5 {
+  font-family: "Bree Serif", sans-serif;
+}
+
+.tituloIndex h1 {
+  font-size: 60px;
+  font-family: "Bree Serif", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #56A689;
+  text-shadow: 2px 2px 2px black;
+}
+
+.section {
+  background-color: #307B8C;
+}
+
+.texto-grande {
+  width: 80%;
+}
+.texto-grande h6 {
+  font-family: "Bree Serif", sans-serif;
+  font-size: 4.5rem;
+  color: black;
+  text-transform: lowercase;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.tituloContacto h2 {
+  font-size: 50px;
+  font-family: "Bree Serif", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #56A689;
+  text-shadow: 2px 2px 2px black;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fafafa;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fafafa;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fafafa;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #fafafa;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  background-color: #518C7C;
+  color: rgb(255, 255, 255);
+}
+
+.tituloCursos h2 {
+  font-size: 50px;
+  font-family: "Bree Serif", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #56A689;
+  text-shadow: 2px 2px 2px black;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: "Bree Serif", sans-serif;
+}
+
+footer {
+  background-color: rgba(22, 22, 22, 0.874);
+  height: auto;
+  width: 100%;
+}
+
+.footer-redes {
+  background-color: #fafafa;
+  border-bottom: 1px solid #fafafa;
+  margin-bottom: 20px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+}
+
+.footer-img {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+}
+.footer-img:hover {
+  background-color: #56A689;
+  border-radius: 5px;
+}
+
+.footer-texto {
+  color: #fafafa;
+  text-align: center;
+}
+.footer-texto h4 {
+  font-family: "Dosis", sans-serif;
+  text-transform: lowercase;
+  color: #518C7C;
+  text-decoration: none;
+}
+.footer-texto h4:hover {
+  color: #fafafa;
+}
+.footer-texto a {
+  text-decoration: none;
+}
+.footer-texto p {
+  font-family: "Dosis", sans-serif;
+}
+
+img.btn-whatsapp {
+  display: block;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+img.btn-whatsapp:hover {
+  border-radius: 100px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgb(7, 94, 84);
+  -moz-box-shadow: 0px 0px 15px 0px rgb(7, 94, 84);
+  box-shadow: 0px 0px 15px 0px rgb(7, 94, 84);
+  transition-duration: 1s;
+  transform: scale(1.2);
+}
+
+.tituloProductos h2 {
+  font-size: 50px;
+  font-family: "Bree Serif", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #56A689;
+  text-shadow: 2px 2px 2px black;
+}
+
+.card {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.colorBtn {
+  background-color: #56A689;
+  color: #fafafa;
+  font-size: 15px;
+}
+.colorBtn:hover {
+  background-color: #F294AD;
+  color: #fafafa;
+}
+
+.tituloSucursal h2 {
+  font-size: 50px;
+  font-family: "Bree Serif", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #56A689;
+  text-shadow: 2px 2px 2px black;
+}
+
+.sucursalParrafo {
+  margin-bottom: 50px;
+  margin-top: 35px;
+  color: #fafafa;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem;
+    margin-bottom: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .texto-grande {
+    width: auto;
+  }
+  .texto-grande h6 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1100px) {
+  .miLogo {
+    width: 80px;
+    margin-left: 20px;
+  }
+  .navbar-nav {
+    width: 100px;
+    height: auto;
+  }
+}
 
 /*# sourceMappingURL=estilo.css.map */
